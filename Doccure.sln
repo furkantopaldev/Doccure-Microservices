@@ -1,0 +1,285 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{F951A47C-3A2E-4F8F-BC42-98D0C1961008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.BranchService", "Microservices\Doccure.BranchService\Doccure.BranchService.csproj", "{A51420AD-9156-4A68-A160-79C5157CEBBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.DoctorService", "Microservices\Doccure.DoctorService\Doccure.DoctorService.csproj", "{98580791-87A7-4C76-BBA4-D25A28A53B37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonData", "JsonData", "{4B06778F-882C-4A66-BAD7-27294B6A9E57}"
+	ProjectSection(SolutionItems) = preProject
+		DoctorExamples.txt = DoctorExamples.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.ReviewService", "Microservices\Doccure.ReviewService\Doccure.ReviewService.csproj", "{B2BB46B1-A42D-46E1-BC8F-BC6664426936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.AppointmentService", "Microservices\Doccure.AppointmentService\Doccure.AppointmentService.csproj", "{B01CCA17-E05F-4518-AA79-7E1C2606020C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.IdentityService", "Microservices\Doccure.IdentityService\Doccure.IdentityService.csproj", "{A4734E96-5FA7-4044-B707-392BDF2431A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.PrescriptionService", "Microservices\Doccure.PrescriptionService\Doccure.PrescriptionService.csproj", "{1AC65793-5293-40EC-A3DC-B27B9EAA0BE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainAdminCodes", "MainAdminCodes", "{37054622-6C03-4698-91B4-911E5F2CE08F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\hastane-dashboard.html = ..\..\..\Downloads\hastane-dashboard.html
+		Layout2.txt = Layout2.txt
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{3ADC0906-45B5-41D7-A8E7-7C6EE84E7501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.WebUI", "Frontends\Doccure.WebUI\Doccure.WebUI.csproj", "{DAE877CD-EA51-414B-858F-CE14AB0C50AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminLayout", "AdminLayout", "{675A9AEE-79D7-4862-A924-87C91E1B8637}"
+	ProjectSection(SolutionItems) = preProject
+		Branches.txt = Branches.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Branches", "Branches", "{184B8298-3BD3-438F-BAAD-D2509480DE95}"
+	ProjectSection(SolutionItems) = preProject
+		BracnhExamplesJson.txt = BracnhExamplesJson.txt
+		BranchDynamicList.txt = BranchDynamicList.txt
+		BranchList.txt = BranchList.txt
+		CreateBranch.txt = CreateBranch.txt
+		DeleteBranch.txt = DeleteBranch.txt
+		GetBranchByIdConsume.txt = GetBranchByIdConsume.txt
+		Icons.txt = Icons.txt
+		OcelotWithById.txt = OcelotWithById.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doctors", "Doctors", "{82ABE57D-EB51-4CEF-AFDF-E1530388479E}"
+	ProjectSection(SolutionItems) = preProject
+		CreateDoctor.txt = CreateDoctor.txt
+		CreateDoctor2.txt = CreateDoctor2.txt
+		DoctorList.txt = DoctorList.txt
+		DoctorList2.txt = DoctorList2.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nurses", "Nurses", "{06F2D220-3D89-43A5-910D-2D88CA02FD15}"
+	ProjectSection(SolutionItems) = preProject
+		NursesList.txt = NursesList.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patient", "Patient", "{024BF5E5-CC7E-4201-8156-F4EACEC71A0F}"
+	ProjectSection(SolutionItems) = preProject
+		GetAllPatientAsync.txt = GetAllPatientAsync.txt
+		IdentityUSerDto.txt = IdentityUSerDto.txt
+		LastAppointmentDto.txt = LastAppointmentDto.txt
+		PatientEntity.txt = PatientEntity.txt
+		PatientList.txt = PatientList.txt
+		PatientListUI.txt = PatientListUI.txt
+		PatientService.txt = PatientService.txt
+		ResultPatientDto.txt = ResultPatientDto.txt
+		ResultPatientDto2.txt = ResultPatientDto2.txt
+		UsersController.txt = UsersController.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appointment", "Appointment", "{3476E478-CDF9-4673-8241-5226D7E0DB7A}"
+	ProjectSection(SolutionItems) = preProject
+		AppointmentExampleSQLQueries.txt = AppointmentExampleSQLQueries.txt
+		AppointmentList.txt = AppointmentList.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jwt", "Jwt", "{0EA850E9-ABDA-46CF-A7C2-5DEFA2DD83EC}"
+	ProjectSection(SolutionItems) = preProject
+		BranchJwtProgramcs.txt = BranchJwtProgramcs.txt
+		GenerateToken.txt = GenerateToken.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{B94FC331-E51C-4037-A5C3-9424272F2297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.Gateway", "ApiGateway\Doccure.Gateway\Doccure.Gateway.csproj", "{DE8096DD-2BA9-4F5E-95A4-DA43718BF304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ocelot", "Ocelot", "{40A770E9-8837-4D0D-AA49-EF0C136EFAE0}"
+	ProjectSection(SolutionItems) = preProject
+		OcelotBranch.txt = OcelotBranch.txt
+		OcelotWithDoctorGetById.txt = OcelotWithDoctorGetById.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Register", "Register", "{66469CCD-479B-46E7-92F8-F40C04B4209C}"
+	ProjectSection(SolutionItems) = preProject
+		Register.txt = Register.txt
+		RegisterConstError.txt = RegisterConstError.txt
+		RegisterWithGender.txt = RegisterWithGender.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Login", "Login", "{E16BB003-E78C-41C3-B487-D2115101800E}"
+	ProjectSection(SolutionItems) = preProject
+		Login2.txt = Login2.txt
+		LoginService.txt = LoginService.txt
+		UserLogin.txt = UserLogin.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ErrorPages", "ErrorPages", "{53195429-E5E5-4D52-B3DF-A368653748C3}"
+	ProjectSection(SolutionItems) = preProject
+		403Forbidden.txt = 403Forbidden.txt
+		404NotFound.txt = 404NotFound.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.PatientService", "Microservices\Doccure.PatientService\Doccure.PatientService.csproj", "{B80CE158-F485-4D54-9FDE-E0DDBF8AB7B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.QueueService", "Microservices\Doccure.QueueService\Doccure.QueueService.csproj", "{A83C9399-0F1B-4FF5-B749-ECF2AE02CD4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{0E43B7A3-1014-48B6-9441-8254B0FBF639}"
+	ProjectSection(SolutionItems) = preProject
+		ExamplePatientQueries.txt = ExamplePatientQueries.txt
+		PatientTable.txt = PatientTable.txt
+		QueueController.txt = QueueController.txt
+		QueueList.txt = QueueList.txt
+		QueueList2.txt = QueueList2.txt
+		QueueList3.txt = QueueList3.txt
+		QueueList4.txt = QueueList4.txt
+		SignalR.txt = SignalR.txt
+		SignalRIndexUI.txt = SignalRIndexUI.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.PharmacyService", "Microservices\Doccure.PharmacyService\Doccure.PharmacyService.csproj", "{F21A4BEF-5111-495E-9240-87ECEA475414}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{F01012D9-6CE7-4786-B481-FC6AEDC6B039}"
+	ProjectSection(SolutionItems) = preProject
+		PortainerOnWindowsShell.txt = PortainerOnWindowsShell.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medicine", "Medicine", "{F6A85474-5F1D-44C3-9A41-C1D2F803AD43}"
+	ProjectSection(SolutionItems) = preProject
+		CreateMedicine.txt = CreateMedicine.txt
+		MedicineController.txt = MedicineController.txt
+		MedicineExampleSQLQuery.txt = MedicineExampleSQLQuery.txt
+		MedicineListUI.txt = MedicineListUI.txt
+		MedicineService.txt = MedicineService.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.MarketService", "Microservices\Doccure.MarketService\Doccure.MarketService.csproj", "{212D72F6-7365-40F6-9A74-AD703C0C0191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{63D223A2-369E-423B-965C-A8BD26502A97}"
+	ProjectSection(SolutionItems) = preProject
+		ExampleRedisMarketData.txt = ExampleRedisMarketData.txt
+		ProductService.txt = ProductService.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccure.OrderService", "Microservices\Doccure.OrderService\Doccure.OrderService.csproj", "{6BB7F0C3-132F-4D47-B1C8-3D915CE53964}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{4339240F-96C7-4FE8-B428-22740C6B5076}"
+	ProjectSection(SolutionItems) = preProject
+		OrderExample.txt = OrderExample.txt
+		OrdersControler.txt = OrdersControler.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{490C5595-0939-447A-890A-14AECC334366}"
+	ProjectSection(SolutionItems) = preProject
+		ProductList.txt = ProductList.txt
+		ProductList2.txt = ProductList2.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cart", "Cart", "{F3144A8A-FC9B-4D77-A1DB-91CDBF69A50B}"
+	ProjectSection(SolutionItems) = preProject
+		CartController.txt = CartController.txt
+		CartService.txt = CartService.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A51420AD-9156-4A68-A160-79C5157CEBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51420AD-9156-4A68-A160-79C5157CEBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51420AD-9156-4A68-A160-79C5157CEBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51420AD-9156-4A68-A160-79C5157CEBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98580791-87A7-4C76-BBA4-D25A28A53B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98580791-87A7-4C76-BBA4-D25A28A53B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98580791-87A7-4C76-BBA4-D25A28A53B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98580791-87A7-4C76-BBA4-D25A28A53B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BB46B1-A42D-46E1-BC8F-BC6664426936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BB46B1-A42D-46E1-BC8F-BC6664426936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BB46B1-A42D-46E1-BC8F-BC6664426936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BB46B1-A42D-46E1-BC8F-BC6664426936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01CCA17-E05F-4518-AA79-7E1C2606020C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01CCA17-E05F-4518-AA79-7E1C2606020C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01CCA17-E05F-4518-AA79-7E1C2606020C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01CCA17-E05F-4518-AA79-7E1C2606020C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4734E96-5FA7-4044-B707-392BDF2431A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4734E96-5FA7-4044-B707-392BDF2431A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4734E96-5FA7-4044-B707-392BDF2431A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4734E96-5FA7-4044-B707-392BDF2431A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC65793-5293-40EC-A3DC-B27B9EAA0BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC65793-5293-40EC-A3DC-B27B9EAA0BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC65793-5293-40EC-A3DC-B27B9EAA0BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC65793-5293-40EC-A3DC-B27B9EAA0BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE877CD-EA51-414B-858F-CE14AB0C50AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE877CD-EA51-414B-858F-CE14AB0C50AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE877CD-EA51-414B-858F-CE14AB0C50AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE877CD-EA51-414B-858F-CE14AB0C50AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8096DD-2BA9-4F5E-95A4-DA43718BF304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8096DD-2BA9-4F5E-95A4-DA43718BF304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8096DD-2BA9-4F5E-95A4-DA43718BF304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8096DD-2BA9-4F5E-95A4-DA43718BF304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80CE158-F485-4D54-9FDE-E0DDBF8AB7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80CE158-F485-4D54-9FDE-E0DDBF8AB7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80CE158-F485-4D54-9FDE-E0DDBF8AB7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80CE158-F485-4D54-9FDE-E0DDBF8AB7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A83C9399-0F1B-4FF5-B749-ECF2AE02CD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83C9399-0F1B-4FF5-B749-ECF2AE02CD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83C9399-0F1B-4FF5-B749-ECF2AE02CD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83C9399-0F1B-4FF5-B749-ECF2AE02CD4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F21A4BEF-5111-495E-9240-87ECEA475414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21A4BEF-5111-495E-9240-87ECEA475414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21A4BEF-5111-495E-9240-87ECEA475414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21A4BEF-5111-495E-9240-87ECEA475414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212D72F6-7365-40F6-9A74-AD703C0C0191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212D72F6-7365-40F6-9A74-AD703C0C0191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212D72F6-7365-40F6-9A74-AD703C0C0191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212D72F6-7365-40F6-9A74-AD703C0C0191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB7F0C3-132F-4D47-B1C8-3D915CE53964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB7F0C3-132F-4D47-B1C8-3D915CE53964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB7F0C3-132F-4D47-B1C8-3D915CE53964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB7F0C3-132F-4D47-B1C8-3D915CE53964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A51420AD-9156-4A68-A160-79C5157CEBBC} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{98580791-87A7-4C76-BBA4-D25A28A53B37} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{4B06778F-882C-4A66-BAD7-27294B6A9E57} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B2BB46B1-A42D-46E1-BC8F-BC6664426936} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{B01CCA17-E05F-4518-AA79-7E1C2606020C} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{A4734E96-5FA7-4044-B707-392BDF2431A2} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{1AC65793-5293-40EC-A3DC-B27B9EAA0BE2} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{37054622-6C03-4698-91B4-911E5F2CE08F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DAE877CD-EA51-414B-858F-CE14AB0C50AF} = {3ADC0906-45B5-41D7-A8E7-7C6EE84E7501}
+		{675A9AEE-79D7-4862-A924-87C91E1B8637} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{184B8298-3BD3-438F-BAAD-D2509480DE95} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{82ABE57D-EB51-4CEF-AFDF-E1530388479E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{06F2D220-3D89-43A5-910D-2D88CA02FD15} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{024BF5E5-CC7E-4201-8156-F4EACEC71A0F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3476E478-CDF9-4673-8241-5226D7E0DB7A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0EA850E9-ABDA-46CF-A7C2-5DEFA2DD83EC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DE8096DD-2BA9-4F5E-95A4-DA43718BF304} = {B94FC331-E51C-4037-A5C3-9424272F2297}
+		{40A770E9-8837-4D0D-AA49-EF0C136EFAE0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{66469CCD-479B-46E7-92F8-F40C04B4209C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E16BB003-E78C-41C3-B487-D2115101800E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{53195429-E5E5-4D52-B3DF-A368653748C3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B80CE158-F485-4D54-9FDE-E0DDBF8AB7B2} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{A83C9399-0F1B-4FF5-B749-ECF2AE02CD4E} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{0E43B7A3-1014-48B6-9441-8254B0FBF639} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F21A4BEF-5111-495E-9240-87ECEA475414} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{F01012D9-6CE7-4786-B481-FC6AEDC6B039} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F6A85474-5F1D-44C3-9A41-C1D2F803AD43} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{212D72F6-7365-40F6-9A74-AD703C0C0191} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{63D223A2-369E-423B-965C-A8BD26502A97} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6BB7F0C3-132F-4D47-B1C8-3D915CE53964} = {F951A47C-3A2E-4F8F-BC42-98D0C1961008}
+		{4339240F-96C7-4FE8-B428-22740C6B5076} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{490C5595-0939-447A-890A-14AECC334366} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F3144A8A-FC9B-4D77-A1DB-91CDBF69A50B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6794892D-F830-403C-AFC1-D9269F669C31}
+	EndGlobalSection
+EndGlobal
